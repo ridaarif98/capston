@@ -89,7 +89,6 @@ function speakerTemplate(speaker) {
         </ul>
     </li>
 </ul> `;
-  }
+}
   
-
 document.getElementById('dynamicList').innerHTML = `${speakerData.map(speakerTemplate).join('')}`;
