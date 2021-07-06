@@ -13,19 +13,64 @@ header .nav-bar {
   height: 50px;
 }
 
-.nav-bar i {
-  font-size: 30px;
-  color:#272A31;
-  width: 44px;
+/* mobile menu popup */
+
+.ham {
+  position: absolute;
+  /* keep the hamburger button above everything */
+  z-index: 100; 
+  top: 1rem;
+  left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 25px;
+  background: white;
+  cursor: pointer;
 }
 
-.nav-bar .xIcon {
+.xIcon {
   display: none;
+  z-index: 100;
+  position: fixed;
 }
 
-.nav-bar .nav-bar-list {
-  display: none;
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background-color: white;
+  z-index: 1;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
 }
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menu li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 20px;
+  color: #EC5242;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+}
+
+/* end of mobile menu */
 
 .intro-Section {
   background-image: url("./images/bg-img.png");
