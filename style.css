@@ -142,7 +142,8 @@ hgroup .secondHeading {
 .program hr {
   height: 2px;
   background-color: #EC5242;
-  width: 5%;
+  width: 8%;
+  border: none;
   align-content: center;
 }
 
@@ -157,8 +158,8 @@ hgroup .secondHeading {
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  padding-left: 15px;
-  padding-right: 10px;
+  padding-left: 18px;
+  padding-right: 15px;
   font-family: Pontano Sans;
   margin: 10px;
 }
@@ -195,7 +196,7 @@ hgroup .secondHeading {
   line-height: 24px;
   text-align: left;
   padding-top: 25px;
-  padding-right: 19px;
+  padding-right: 22px;
   padding-bottom: 20px;
   padding-left: 30px;
 }
@@ -227,10 +228,11 @@ hgroup .secondHeading {
   height: 32px;
 }
 
-.featuredSpeaker hr {
+.featuredSpeaker hr, .partner hr {
   height: 2px;
   background-color: #EC5242;
-  width: 5%;
+  width: 7%;
+  border: none;
   align-content: center;
   border-radius: 1px;
 }
@@ -266,17 +268,17 @@ hgroup .secondHeading {
 }
 
 .speakerInfo li {
-    padding: 0;
-    margin: 0;
-    justify-content: left;
+  padding: 0;
+  margin: 0;
+  justify-content: left;
 }
 
 .speakerInfo h1 {
   font-size: 19px;
   line-height: 27px;
   text-align: left;
-  padding-bottom: 0;
-  bottom: 0;
+  margin: 0;
+  padding-top: 10px;
 }
 
 .speakerInfo h2 {
@@ -286,6 +288,7 @@ hgroup .secondHeading {
   padding-right: 20px;
   letter-spacing: -1px;
   color: #EC5242;
+  margin: 0;
 }
 
 .speakerInfo p {
@@ -293,4 +296,98 @@ hgroup .secondHeading {
   line-height: 18px;
   letter-spacing: -0.4px;
   padding-right: 10px;
+}
+
+.partner {
+  width: 100%;
+  background-color: #424146;
+  padding-bottom: 50px;
+}
+
+.partner h1 {
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+.partner .firstPartner {
+  list-style-type: none;
+  padding-top: 40px;
+  display: flex;
+  left: 0;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.firstPartner li, .secondPartner li {
+  display: inline;
+  color: #919191;
+  line-height: 50px;
+  padding-inline: 20px;
+  margin-right: 20px;
+}
+
+.firstPartner li img {
+  width: 100px;
+}
+
+.secondPartner {
+  list-style-type: none;
+  display: flex;
+  left: 0;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+footer {
+  width: 100%;
+}
+
+footer .footerMainul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  left: 0;
+  margin: 0;
+}
+
+.footerMainul .footerFirstul {
+  list-style-type: none;
+  display: flex;
+  left: 0;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 35px;
+}
+
+.footerMainul .footerSecondul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  left: 0;
+  flex-direction: column;
+  width: 60%;
+  padding-top: 35px;
+}
+
+.footerFirstul li {
+  font-size: 22px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  padding-right: 15px;
+}
+
+.footerSecondul li {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  padding-left: 0;
+  text-align: left;
+  padding-right: 30px;
 }
