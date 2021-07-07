@@ -358,3 +358,78 @@ footer .footerMainul {
 .menuLink:hover {
   text-decoration: underline;
 }
+
+.nav-bar .topList {
+  display: none;
+}
+
+.desktopNavFirst {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .nav-bar {
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 25px !important;
+    background-color: black;
+  }
+
+  .nav-bar .ham {
+    display: none;
+  }
+
+  .nav-bar .menu {
+    display: none;
+  }
+
+  .nav-bar .topList {
+    display: block;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-right: 110px;
+  }
+
+  header .nav-bar .topList li {
+    color: white;
+    font-size: 10px;
+    padding-inline: 8px;
+    padding-top: 6px;
+  }
+  
+  header .desktopNavFirst {
+    display: block;
+  }
+
+  header .desktopNavFirst {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .desktopNavFirst .secondNavList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 90px;
+  }
+
+  .desktopNavFirst .secondNavList li {
+    padding-inline: 25px;
+    font-size: 15px;
+    color: #919191;
+  }
+
+  .secondNavList li a {
+    text-decoration: none;
+    color: #EC5242;;
+  }
+
+}
