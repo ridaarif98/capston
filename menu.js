@@ -19,5 +19,5 @@ function toggleMenu() {
 ham.addEventListener('click', toggleMenu);
 
 menuLinks.forEach((menuLink) => {
-    menuLink.addEventListener('clickD', toggleMenu);
+  menuLink.addEventListener('clickD', toggleMenu);
 });
