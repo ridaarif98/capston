@@ -80,6 +80,15 @@ header .nav-bar {
   display: none;
 }
 
+header img {
+  height: 40px;
+  width: 140px;
+  padding-top: 4px;
+  padding-right: 8px;
+  position: relative;
+  display: none;
+}
+
 .intro-Section {
   background-image: url("./images/bg-img.png");
   background-repeat: no-repeat;
@@ -474,6 +483,10 @@ footer .footerMainul {
     top: 0;
   }
 
+  header img {
+    display: block;
+  }
+
   header .nav-bar {
     left: 0;
     display: flex;
@@ -756,6 +769,8 @@ footer .footerMainul {
 
   .footerMainul .footerthirdul li {
     width: 70%;
+    font-size: 14px;
+    line-height: 22px;
   }
   
   .footerFirstul li {

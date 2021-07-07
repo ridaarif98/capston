@@ -8,6 +8,15 @@ header {
   width: 100%;
 }
 
+header img {
+  height: 40px;
+  width: 140px;
+  padding-top: 4px;
+  padding-right: 8px;
+  position: relative;
+  display: none;
+}
+
 .mainSection {
   width: 100%;
   padding-top: 40px;
@@ -47,7 +56,6 @@ header {
   border: 1px solid #D5D5D5;
   margin: 20px;
   padding: 22px;
-
 }
 
 .mainSection .furtherDetail {
@@ -89,7 +97,7 @@ header {
   margin-right: 10px;
 }
 
-.eventLogo p {
+.eventLogo .mobilePara {
   font-size: 15px;
   line-height: 24px;
   text-align: center;
@@ -99,6 +107,10 @@ header {
   margin-right: 30px;
   margin-left: 30px;
   margin-bottom: 20px;
+}
+
+.eventLogo .desktopPara {
+  display: none;
 }
 
 .eventList {
@@ -147,8 +159,8 @@ header {
 
 .pastEvent h1 {
   padding-top: 30px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight: normal;
   font-size: 26px;
   line-height: 30px;
@@ -174,9 +186,18 @@ header {
   margin: 2px 20px;
 }
 
+.pastEvent .eventMain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .pastEvent .eventImage {
   position: relative; 
   top: 50px;
+  list-style: none;
   margin-bottom: 0;
   margin-left: 20px;
   margin-right: 20px;
@@ -190,14 +211,18 @@ header {
 .eventImage .imgDiv {
   margin: 20px 0;
   background-color: red;
-  width: 355px;
-  height: 246px;
+  /* width: 355px;
+  height: 246px; */
 }
 
 .eventImage img {
-  width: 355px;
+  width: 300px;
   height: 246px;
   opacity: 0.5;
+}
+
+.eventImage img:hover {
+  opacity: 1;
 }
 
 .eventImage .content {
@@ -209,6 +234,10 @@ header {
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 4px;
+}
+
+.eventImage .content p {
+  color: white;
 }
 
 .partner {
@@ -258,6 +287,8 @@ header {
 
 footer {
   width: 100%;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 footer .footerMainul {
@@ -367,7 +398,20 @@ footer .footerMainul {
   display: none;
 }
 
+.desktopPartner {
+  display: none;
+}
+
+
+.footerthirdul {
+  display: none;
+}
+
 @media (min-width: 768px) {
+
+  header img {
+    display: block;
+  }
 
   .nav-bar {
     left: 0;
@@ -430,6 +474,167 @@ footer .footerMainul {
   .secondNavList li a {
     text-decoration: none;
     color: #EC5242;;
+  }
+
+  .mainSection div {
+    color: #eC5242;
+    justify-content: center;
+  }
+
+  .mainSection div h2 {
+    display: none;
+  }
+
+  .mainSection h1 {
+    padding: 20px 100px;
+    margin: 5px 50px;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .mainSection .eventDetail {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #878787;
+    left: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    margin: 30px 180px;
+    padding: 22px;
+  }
+
+  .eventLogo .mobilePara {
+    display: none;
+  }
+
+  .eventLogo .desktopPara {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #878787;
+    padding: 10px 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  .partner h1 {
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: #919191;
+    padding-top: 40px;
+  }
+
+  .partner hr {
+    width: 4%;
+    padding-top: 0;
+  }
+
+  .partner .firstPartner, .partner .secondPartner {
+    display: none;
+  }
+
+  .partner .desktopPartner {
+    display: block;
+    list-style-type: none;
+    padding-top: 40px;
+    display: flex;
+    left: 0;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .partner .desktopPartner li {
+    display: inline;
+    color: #919191;
+    line-height: 60px;
+    padding-inline: 20px;
+    margin-right: 20px;
+  }
+
+  .eventList {
+    background: #FFFFFF;
+    border: 3px solid #F7F7F7;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 35px 220px;
+  }
+  
+  .eventTime {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+  }
+  
+  .eventTime li {
+    display: inline-block;
+    line-height: 90px;
+    padding-inline: 0;
+  }
+  
+  .eventTime img {
+    padding-top: 35px;
+    right: 0;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .eventTime h1 {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    left: 0;
+  }
+
+  .pastEvent .eventMain {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footerMainul .footerSecondul {
+    display: none;
+  }
+
+  .footerMainul .footerthirdul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    left: 0;
+    padding-left: 0;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 35px;
+  }
+
+  .footerthirdul li {
+    width: 70%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .footerFirstul li {
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    padding-left: 70px;
   }
 
 }
