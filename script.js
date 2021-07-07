@@ -47,7 +47,7 @@ const speakerData = [
     work: 'She worked as a courtroom clerk, but left this job to become a writer.',
     detail: '  Ms. Rubin is the author of several books, including The Happiness Project, where she discusses personal transformation, and Better Than Before',
   },
- 
+
 ];
 
 function speakerTemplate(speaker) {
