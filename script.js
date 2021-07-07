@@ -42,7 +42,7 @@ const speakerData = [
     },
     {
         id: 3,
-        speakerName: 'Arianna Huffington',
+        speakerName: 'Arianna',
         speakerImg: './images/arianna_huffington.png',
         altText: 'Arianna',
         work: 'She is the founder and CEO of Thrive Global, a company that helps people unlock their potential.',
@@ -50,7 +50,7 @@ const speakerData = [
     },
     {
         id: 4,
-        speakerName: 'Iyanla Vanzant',
+        speakerName: 'Iyanla',
         speakerImg: './images/iyanla_vanzant.jpg',
         altText: 'Iyanla',
         work: 'She is a lawyer, life coach, spiritual teacher, motivational speaker, and TV personality',
@@ -66,7 +66,7 @@ const speakerData = [
     },
     {
         id: 6,
-        speakerName: 'Gretchen Rubin',
+        speakerName: 'Gretchen',
         speakerImg: './images/gretchen_rubin.jpg',
         altText: 'Gretchen',
         work: 'She worked as a courtroom clerk, but left this job to become a writer.',
