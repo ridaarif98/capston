@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
 * {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -20,11 +20,11 @@ header img {
 .mainSection {
   width: 100%;
   padding-top: 40px;
-  background: linear-gradient(0deg, #F5F5F5 0%, rgba(248, 248, 248, 0.53) 100%);
+  background: linear-gradient(0deg, #f5f5f5 0%, rgba(248, 248, 248, 0.53) 100%);
 }
 
 .mainSection div {
-  color: #eC5242;
+  color: #ec5242;
 }
 
 .mainSection h2 {
@@ -52,8 +52,8 @@ header img {
   text-align: center;
   color: #878787;
   left: 44px;
-  background: #FFFFFF;
-  border: 1px solid #D5D5D5;
+  background: #fff;
+  border: 1px solid #d5d5d5;
   margin: 20px;
   padding: 22px;
 }
@@ -75,7 +75,7 @@ header img {
   line-height: 27px;
   text-align: center;
   letter-spacing: 0.4px;
-  color: #000000;
+  color: #000;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 30px;
@@ -91,7 +91,7 @@ header img {
   line-height: 30px;
   text-align: center;
   letter-spacing: 4px;
-  color: #000000;
+  color: #000;
   padding: 30px 15px;
   margin-left: 10px;
   margin-right: 10px;
@@ -114,8 +114,8 @@ header img {
 }
 
 .eventList {
-  background: #FFFFFF;
-  border: 3px solid #F7F7F7;
+  background: #fff;
+  border: 3px solid #f7f7f7;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -168,9 +168,10 @@ header img {
   text-align: center;
 }
 
-.pastEvent hr, .partner hr {
+.pastEvent hr,
+.partner hr {
   height: 2px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   width: 8%;
   border: none;
   align-content: center;
@@ -195,7 +196,7 @@ header img {
 }
 
 .pastEvent .eventImage {
-  position: relative; 
+  position: relative;
   top: 50px;
   list-style: none;
   margin-bottom: 0;
@@ -211,14 +212,16 @@ header img {
 .eventImage .imgDiv {
   margin: 20px 0;
   background-color: red;
-  /* width: 355px;
-  height: 246px; */
 }
 
 .eventImage img {
   width: 300px;
   height: 246px;
   opacity: 0.5;
+}
+
+.firstPartner li img {
+  width: 100px;
 }
 
 .eventImage img:hover {
@@ -264,16 +267,13 @@ header img {
   flex-wrap: wrap;
 }
 
-.firstPartner li, .secondPartner li {
+.firstPartner li,
+.secondPartner li {
   display: inline;
   color: #919191;
   line-height: 50px;
   padding-inline: 20px;
   margin-right: 20px;
-}
-
-.firstPartner li img {
-  width: 100px;
 }
 
 .secondPartner {
@@ -282,7 +282,7 @@ header img {
   left: 0;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 footer {
@@ -322,7 +322,7 @@ footer .footerMainul {
   font-size: 22px;
   line-height: 18px;
   font-weight: bold;
-  color: #000000;
+  color: #000;
   text-align: left;
   padding-right: 15px;
 }
@@ -330,7 +330,7 @@ footer .footerMainul {
 .footerSecondul li {
   font-size: 13px;
   line-height: 18px;
-  color: #000000;
+  color: #000;
   padding-left: 0;
   text-align: left;
   padding-right: 30px;
@@ -339,6 +339,7 @@ footer .footerMainul {
 /* Menu popup */
 .ham {
   position: absolute;
+
   /* keep the hamburger button above everything */
   z-index: 100;
   top: 1rem;
@@ -382,7 +383,7 @@ footer .footerMainul {
 .menuLink {
   display: inline;
   font-size: 20px;
-  color: #EC5242;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -402,13 +403,11 @@ footer .footerMainul {
   display: none;
 }
 
-
 .footerthirdul {
   display: none;
 }
 
 @media (min-width: 768px) {
-
   header img {
     display: block;
   }
@@ -430,7 +429,6 @@ footer .footerMainul {
   }
 
   .nav-bar .topList {
-    display: block;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -439,15 +437,26 @@ footer .footerMainul {
     margin-right: 110px;
   }
 
+  .footerFirstul li {
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    padding-left: 70px;
+  }
+
+  .footerthirdul li {
+    width: 70%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   header .nav-bar .topList li {
     color: white;
     font-size: 10px;
     padding-inline: 8px;
     padding-top: 6px;
-  }
-  
-  header .desktopNavFirst {
-    display: block;
   }
 
   header .desktopNavFirst {
@@ -473,11 +482,11 @@ footer .footerMainul {
 
   .secondNavList li a {
     text-decoration: none;
-    color: #EC5242;;
+    color: #ec5242;
   }
 
   .mainSection div {
-    color: #eC5242;
+    color: #ec5242;
     justify-content: center;
   }
 
@@ -502,8 +511,8 @@ footer .footerMainul {
     text-align: center;
     color: #878787;
     left: 44px;
-    background: #FFFFFF;
-    border: 1px solid #D5D5D5;
+    background: #fff;
+    border: 1px solid #d5d5d5;
     margin: 30px 180px;
     padding: 22px;
   }
@@ -538,12 +547,14 @@ footer .footerMainul {
     padding-top: 0;
   }
 
-  .partner .firstPartner, .partner .secondPartner {
+  .partner .firstPartner,
+  .partner .secondPartner {
     display: none;
   }
 
   .partner .desktopPartner {
-    display: block;
+
+    /* display: block; */
     list-style-type: none;
     padding-top: 40px;
     display: flex;
@@ -562,14 +573,14 @@ footer .footerMainul {
   }
 
   .eventList {
-    background: #FFFFFF;
-    border: 3px solid #F7F7F7;
+    background: #fff;
+    border: 3px solid #f7f7f7;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     margin: 35px 220px;
   }
-  
+
   .eventTime {
     list-style-type: none;
     display: flex;
@@ -577,20 +588,20 @@ footer .footerMainul {
     justify-content: center;
     bottom: 0;
   }
-  
+
   .eventTime li {
     display: inline-block;
     line-height: 90px;
     padding-inline: 0;
   }
-  
+
   .eventTime img {
     padding-top: 35px;
     right: 0;
     width: 70px;
     height: 70px;
   }
-  
+
   .eventTime h1 {
     text-align: center;
     padding-left: 0;
@@ -621,20 +632,4 @@ footer .footerMainul {
     width: 60%;
     padding-top: 35px;
   }
-
-  .footerthirdul li {
-    width: 70%;
-    font-size: 14px;
-    line-height: 22px;
-  }
-  
-  .footerFirstul li {
-    font-size: 22px;
-    line-height: 18px;
-    font-weight: bold;
-    color: #000000;
-    text-align: left;
-    padding-left: 70px;
-  }
-
 }

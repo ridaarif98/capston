@@ -516,6 +516,29 @@ footer .footerMainul {
     margin-right: 110px;
   }
 
+  .footerFirstul li {
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    padding-left: 70px;
+  }
+
+  .footerMainul .footerthirdul li {
+    width: 70%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .partner .desktopPartner li {
+    display: inline;
+    color: #919191;
+    line-height: 60px;
+    padding-inline: 20px;
+    margin-right: 20px;
+  }
+
   header .nav-bar .topList li {
     color: white;
     font-size: 10px;
@@ -744,14 +767,6 @@ footer .footerMainul {
     flex-wrap: wrap;
   }
 
-  .partner .desktopPartner li {
-    display: inline;
-    color: #919191;
-    line-height: 60px;
-    padding-inline: 20px;
-    margin-right: 20px;
-  }
-
   .footerMainul .footerSecondul {
     display: none;
   }
@@ -766,19 +781,5 @@ footer .footerMainul {
     width: 60%;
     padding-top: 35px;
   }
-
-  .footerMainul .footerthirdul li {
-    width: 70%;
-    font-size: 14px;
-    line-height: 22px;
-  }
   
-  .footerFirstul li {
-    font-size: 22px;
-    line-height: 18px;
-    font-weight: bold;
-    color: #000000;
-    text-align: left;
-    padding-left: 70px;
-  }
 }
