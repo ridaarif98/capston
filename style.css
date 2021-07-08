@@ -130,7 +130,6 @@ hgroup .secondHeading {
   font-weight: 400;
   top: 137px;
   height: 190px;
-  font-style: normal;
   font-weight: normal;
   font-size: 41px;
   line-height: 44px;
@@ -351,7 +350,7 @@ hgroup .secondHeading {
   padding-top: -10px;
   padding-right: 20px;
   letter-spacing: -1px;
-  color: #EC5242;
+  color: #ec5242;
   margin: 0;
 }
 
@@ -386,7 +385,8 @@ hgroup .secondHeading {
   flex-wrap: wrap;
 }
 
-.firstPartner li, .secondPartner li {
+.firstPartner li,
+.secondPartner li {
   display: inline;
   color: #919191;
   line-height: 50px;
@@ -508,6 +508,12 @@ footer .footerMainul {
     padding-left: 70px;
   }
 
+  .firstDetail li {
+    display: inline;
+    text-align: center;
+    line-height: 80px;
+  }
+
   .footerMainul .footerthirdul li {
     width: 70%;
     font-size: 14px;
@@ -520,6 +526,12 @@ footer .footerMainul {
     line-height: 60px;
     padding-inline: 20px;
     margin-right: 20px;
+  }
+
+  .desktopNavFirst .secondNavList li {
+    padding-inline: 25px;
+    font-size: 15px;
+    color: #919191;
   }
 
   header .nav-bar .topList li {
@@ -543,18 +555,6 @@ footer .footerMainul {
     margin-right: 90px;
   }
 
-  .firstDetail li {
-    display: inline;
-    text-align: center;
-    line-height: 80px;
-  }
-
-  .desktopNavFirst .secondNavList li {
-    padding-inline: 25px;
-    font-size: 15px;
-    color: #919191;
-  }
-
   .program a {
     display: block;
     color: white;
@@ -566,7 +566,7 @@ footer .footerMainul {
 
   .secondNavList li a {
     text-decoration: none;
-    color: #ec5242;;
+    color: #ec5242;
   }
 
   .intro-Section {
@@ -632,7 +632,7 @@ footer .footerMainul {
     width: 14%;
     margin: 4px;
   }
-  
+
   .firstDetail img {
     height: 30px;
     width: 30px;
@@ -659,7 +659,7 @@ footer .footerMainul {
     padding-right: 5px;
     padding-left: 5px;
   }
-  
+
   .program button {
     display: none;
   }
