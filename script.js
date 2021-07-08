@@ -2,7 +2,7 @@ const speakerData = [
   {
     id: 1,
     speakerName: 'Carla Harris',
-    speakerImg: './images/carla_harris.png',
+    speakerImg: './images/Untitled-1.png',
     altText: 'CarlaHarris',
     work: 'In 2013, Ms. Harris was appointed by  then president Barack Obama as chairperson of the National Women’s Council',
     detail: ' A couple of books she wrote include Strategize to Win and Expect to Win.',
@@ -34,7 +34,7 @@ const speakerData = [
   {
     id: 5,
     speakerName: 'Dianna David',
-    speakerImg: './images/dianna_david.jpg',
+    speakerImg: './images/dianna_david.png',
     altText: 'Diana',
     work: 'She is the founder of the Red Ball Movement',
     detail: '  She left her job as an engineer to pursue her dream of becoming a performer.During her talks and performances, she combines dance, contact juggling',
