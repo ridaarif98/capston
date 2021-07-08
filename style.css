@@ -118,7 +118,6 @@ hgroup .firstHeading {
   height: 24px;
   letter-spacing: 2px;
   width: 328px;
-  font-family: Pontano Sans;
   display: flex;
   font-style: normal;
   font-weight: normal;
@@ -140,7 +139,6 @@ hgroup .secondHeading {
 }
 
 .intro-Section p {
-  font-family: Pontano Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -170,7 +168,6 @@ hgroup .secondHeading {
 }
 
 .placeTime p {
-  font-family: Pontano Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -297,7 +294,7 @@ hgroup .secondHeading {
 .featuredSpeaker hr,
 .partner hr {
   height: 2px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   width: 7%;
   border: none;
   align-content: center;
@@ -423,9 +420,6 @@ footer {
 footer .footerMainul {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-  left: 0;
-  margin: 0;
 }
 
 .footerMainul .footerFirstul {
@@ -444,7 +438,7 @@ footer .footerMainul {
   left: 0;
   flex-direction: column;
   width: 60%;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .footerFirstul li {
@@ -542,18 +536,17 @@ footer .footerMainul {
     flex-direction: row-reverse;
   }
 
-  /* .desktopNavFirst img {
-    top: 0;
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
-  } */
-
   .desktopNavFirst .secondNavList {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin-right: 90px;
+  }
+
+  .firstDetail li {
+    display: inline;
+    text-align: center;
+    line-height: 80px;
   }
 
   .desktopNavFirst .secondNavList li {
@@ -562,9 +555,18 @@ footer .footerMainul {
     color: #919191;
   }
 
+  .program a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+
   .secondNavList li a {
     text-decoration: none;
-    color: #EC5242;;
+    color: #ec5242;;
   }
 
   .intro-Section {
@@ -630,12 +632,6 @@ footer .footerMainul {
     width: 14%;
     margin: 4px;
   }
-
-  .firstDetail li {
-    display: inline;
-    text-align: center;
-    line-height: 80px;
-  }
   
   .firstDetail img {
     height: 30px;
@@ -643,17 +639,16 @@ footer .footerMainul {
     padding-left: 10px;
     padding-right: 30px;
   }
-  
+
   .firstDetail h1 {
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 22px;
-  line-height: 27px;
-  /* padding-right: 0; */
-  text-align: center;
-  color: #EC5242;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #ec5242;
   }
-  
+
   .firstDetail p {
     color: white;
     font-size: 12px;
@@ -669,17 +664,8 @@ footer .footerMainul {
     display: none;
   }
 
-  .program a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-    font-size: 18px;
-  }
-
   .program a:hover {
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .speakerDetail {
@@ -687,10 +673,8 @@ footer .footerMainul {
     grid-template-rows: auto auto auto;
     grid-template-columns: 40% 40%;
     justify-content: center;
-    /* display: flex;
-    flex-direction: row; */
   }
-  
+
   .speakerDetail .speakerIntro {
     list-style-type: none;
     display: flex;
@@ -708,18 +692,18 @@ footer .footerMainul {
     padding-bottom: 6px;
     padding-top: 10px;
   }
-  
+
   .speakerInfo h2 {
     font-size: 12px;
     line-height: 18px;
     padding-top: 5px;
     padding-right: 20px;
     letter-spacing: -0.5px;
-    color: #EC5242;
+    color: #ec5242;
     width: 91%;
     margin: 0;
   }
-  
+
   .speakerInfo p {
     font-size: 11px;
     line-height: 18px;
@@ -727,7 +711,7 @@ footer .footerMainul {
     padding-right: 10px;
     width: 100%;
   }
-  
+
   .partner h1 {
     font-size: 28px;
     line-height: 27px;
@@ -741,12 +725,12 @@ footer .footerMainul {
     padding-top: 0;
   }
 
-  .partner .firstPartner, .partner .secondPartner {
+  .partner .firstPartner,
+  .partner .secondPartner {
     display: none;
   }
 
   .partner .desktopPartner {
-    display: block;
     list-style-type: none;
     padding-top: 40px;
     display: flex;
@@ -770,5 +754,4 @@ footer .footerMainul {
     width: 60%;
     padding-top: 35px;
   }
-  
 }

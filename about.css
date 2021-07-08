@@ -294,9 +294,6 @@ footer {
 footer .footerMainul {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-  left: 0;
-  margin: 0;
 }
 
 .footerMainul .footerFirstul {
@@ -315,7 +312,7 @@ footer .footerMainul {
   left: 0;
   flex-direction: column;
   width: 60%;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .footerFirstul li {
