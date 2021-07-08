@@ -258,15 +258,22 @@ hgroup .secondHeading {
   padding-left: 30px;
 }
 
-.program button {
-  padding: 22px 22px;
+.buttonList {
+  list-style-type: none;
+  padding: 1px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttonList button {
+  padding: 14px 22px;
   background: #ec5242;
   color: white;
   position: relative;
   font-size: 20px;
   line-height: 25px;
-  left: 20%;
-  right: 22%;
   border: none;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -683,6 +690,9 @@ footer .footerMainul {
     height: 250px;
   }
 
+  .featuredSpeaker .buttonList {
+    display: none;
+  }
   .speakerInfo h1 {
     font-size: 18px;
     line-height: 27px;
