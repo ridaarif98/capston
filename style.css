@@ -88,9 +88,7 @@ header .nav-bar {
 header img {
   height: 40px;
   width: 140px;
-  padding-top: 4px;
-  padding-left: 20px;
-  margin-left: 50px;
+  padding-left: 50px;
   position: relative;
   display: none;
 }
@@ -567,6 +565,13 @@ footer .footerMainul {
     color: #919191;
   }
 
+  .desktopNavFirst .secondNavList .summitBtn {
+    background-color: white; 
+    color: #ec5242; 
+    border: 2px solid #ec5242;
+    padding: 10px;
+  }
+
   header .nav-bar .topList li {
     color: white;
     font-size: 10px;
@@ -587,6 +592,9 @@ footer .footerMainul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+  }
+
+  .desktopNavFirst .secondNavList .secondNavItem {
     padding-top: 10px;
   }
 

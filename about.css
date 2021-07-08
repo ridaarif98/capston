@@ -507,12 +507,23 @@ footer .footerMainul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+  }
+
+  
+  .desktopNavFirst .secondNavList .secondNavItem {
     padding-top: 10px;
   }
 
   .secondNavList li a {
     text-decoration: none;
     color: #ec5242;
+  }
+
+  .desktopNavFirst .secondNavList .summitBtn {
+    background-color: white; 
+    color: #ec5242; 
+    border: 2px solid #ec5242;
+    padding: 10px;
   }
 
   .mainSection div {
