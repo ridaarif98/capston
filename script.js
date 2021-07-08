@@ -50,22 +50,6 @@ const speakerData = [
 
 ];
 
-// function speakerTemplate(speaker) {
-//   return `
-//     <ul class="speakerIntro">
-//     <li><img src=${speaker.speakerImg} alt=${speaker.altText}></li>
-//     <li>
-//         <ul class="speakerInfo">
-//             <li><h1>${speaker.speakerName}</h1>
-//             <h2>${speaker.work} </h2></li>
-//             <li>
-//                 <p>${speaker.detail} </p>
-//             </li>
-//         </ul>
-//     </li>
-// </ul> `;
-// }
-
 function guestSection(count) {
   return speakerData.slice(0, count).map((speaker) => `
   <ul class="speakerIntro">
@@ -85,7 +69,6 @@ function guestSection(count) {
 const speakerList = document.getElementById('dynamicList');
 const guestList = guestSection();
 speakerList.innerHTML = guestList;
-// document.getElementById('dynamicList').innerHTML = `${speakerData.map(speakerTemplate).join('')}`;
 
 const moreButton = document.getElementById('more-btn');
 moreButton.addEventListener('click', () => {
