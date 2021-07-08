@@ -452,6 +452,26 @@ footer .footerMainul {
     line-height: 22px;
   }
 
+  .eventTime li {
+    display: inline-block;
+    line-height: 90px;
+    padding-inline: 0;
+  }
+
+  .desktopNavFirst .secondNavList li {
+    padding-inline: 25px;
+    font-size: 15px;
+    color: #919191;
+  }
+
+  .partner .desktopPartner li {
+    display: inline;
+    color: #919191;
+    line-height: 60px;
+    padding-inline: 20px;
+    margin-right: 20px;
+  }
+
   header .nav-bar .topList li {
     color: white;
     font-size: 10px;
@@ -472,12 +492,6 @@ footer .footerMainul {
     display: flex;
     flex-direction: row;
     margin-right: 90px;
-  }
-
-  .desktopNavFirst .secondNavList li {
-    padding-inline: 25px;
-    font-size: 15px;
-    color: #919191;
   }
 
   .secondNavList li a {
@@ -553,7 +567,6 @@ footer .footerMainul {
   }
 
   .partner .desktopPartner {
-
     /* display: block; */
     list-style-type: none;
     padding-top: 40px;
@@ -562,14 +575,6 @@ footer .footerMainul {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .partner .desktopPartner li {
-    display: inline;
-    color: #919191;
-    line-height: 60px;
-    padding-inline: 20px;
-    margin-right: 20px;
   }
 
   .eventList {
@@ -587,12 +592,6 @@ footer .footerMainul {
     flex-direction: row;
     justify-content: center;
     bottom: 0;
-  }
-
-  .eventTime li {
-    display: inline-block;
-    line-height: 90px;
-    padding-inline: 0;
   }
 
   .eventTime img {
