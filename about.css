@@ -86,7 +86,7 @@ header img {
 
 .eventLogo {
   width: 100%;
-  padding: 25px auto;
+  padding: 25px 0;
   margin: 25px auto;
 }
 
@@ -159,7 +159,6 @@ header img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 100px;
-  padding: auto;
 }
 
 .pastEvent h1 {
@@ -423,7 +422,7 @@ footer .footerMainul {
     padding-top: 0;
     flex-direction: row-reverse;
     height: 25px !important;
-    background-color: #272A31;
+    background-color: #272a31;
   }
 
   .nav-bar .ham {
@@ -444,7 +443,7 @@ footer .footerMainul {
   }
 
   footer {
-    background-color: #272A31;
+    background-color: #272a31;
   }
 
   .footerFirstul li {
@@ -478,6 +477,7 @@ footer .footerMainul {
   .partner {
     display: none;
   }
+
   /* .partner .desktopPartner li {
     display: inline;
     color: #919191;
@@ -509,7 +509,6 @@ footer .footerMainul {
     flex-direction: row;
   }
 
-  
   .desktopNavFirst .secondNavList .secondNavItem {
     padding-top: 10px;
   }
@@ -520,8 +519,8 @@ footer .footerMainul {
   }
 
   .desktopNavFirst .secondNavList .summitBtn {
-    background-color: white; 
-    color: #ec5242; 
+    background-color: white;
+    color: #ec5242;
     border: 2px solid #ec5242;
     padding: 10px;
   }
@@ -574,35 +573,6 @@ footer .footerMainul {
     margin-left: 40px;
     margin-bottom: 20px;
   }
-
-  /* .partner h1 {
-    font-size: 28px;
-    line-height: 27px;
-    text-align: center;
-    color: #919191;
-    padding-top: 40px;
-  }
-
-  .partner hr {
-    width: 4%;
-    padding-top: 0;
-  }
-
-  .partner .firstPartner,
-  .partner .secondPartner {
-    display: none;
-  }
-
-  .partner .desktopPartner {
-    /* display: block; 
-    list-style-type: none;
-    padding-top: 40px;
-    display: flex;
-    left: 0;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  } */
 
   .eventList {
     background: #fff;

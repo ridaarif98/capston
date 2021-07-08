@@ -510,7 +510,7 @@ footer .footerMainul {
     padding-top: 0;
     flex-direction: row-reverse;
     height: 25px !important;
-    background-color: #272A31;
+    background-color: #272a31;
   }
 
   .nav-bar .ham {
@@ -566,8 +566,8 @@ footer .footerMainul {
   }
 
   .desktopNavFirst .secondNavList .summitBtn {
-    background-color: white; 
-    color: #ec5242; 
+    background-color: white;
+    color: #ec5242;
     border: 2px solid #ec5242;
     padding: 10px;
   }
