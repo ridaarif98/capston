@@ -3,6 +3,7 @@ const speakerData = [
     id: 1,
     speakerName: 'Carla Harris',
     speakerImg: './images/Untitled-1.png',
+    shadowImage: './images/shadow.svg',
     altText: 'CarlaHarris',
     work: 'In 2013, Ms. Harris was appointed by  then president Barack Obama as chairperson of the National Women’s Council',
     detail: ' A couple of books she wrote include Strategize to Win and Expect to Win.',
@@ -11,6 +12,7 @@ const speakerData = [
     id: 2,
     speakerName: 'Brené Brown',
     speakerImg: './images/secondSpeaker.png',
+    shadowImage: './images/shadow.svg',
     altText: 'BreneBrown',
     work: 'She has years of experience in research and specializes in social work',
     detail: '  Ms. Brown has authored several bestselling self-help books, including The Gifts of Imperfection, and Daring Greatly',
@@ -19,6 +21,7 @@ const speakerData = [
     id: 3,
     speakerName: 'Arianna',
     speakerImg: './images/arianna_huffington.png',
+    shadowImage: './images/shadow.svg',
     altText: 'Arianna',
     work: 'She is the founder and CEO of Thrive Global, a company that helps people unlock their potential.',
     detail: ' In her work, she discusses success, well-being, and science-based methods for improving personal performance.',
@@ -27,6 +30,7 @@ const speakerData = [
     id: 4,
     speakerName: 'Iyanla',
     speakerImg: './images/iyanla_vanzant.jpg',
+    shadowImage: './images/shadow.svg',
     altText: 'Iyanla',
     work: 'She is a lawyer, life coach, spiritual teacher, motivational speaker, and TV personality',
     detail: ' She wrote a number of books, including Peace from Broken Pieces, where she talks about personal healing',
@@ -35,6 +39,7 @@ const speakerData = [
     id: 5,
     speakerName: 'Dianna David',
     speakerImg: './images/dianna_david.png',
+    shadowImage: './images/shadow.svg',
     altText: 'Diana',
     work: 'She is the founder of the Red Ball Movement',
     detail: '  She left her job as an engineer to pursue her dream of becoming a performer.During her talks and performances, she combines dance, contact juggling',
@@ -43,6 +48,7 @@ const speakerData = [
     id: 6,
     speakerName: 'Gretchen',
     speakerImg: './images/gretchen_rubin.jpg',
+    shadowImage: './images/shadow.svg',
     altText: 'Gretchen',
     work: 'She worked as a courtroom clerk, but left this job to become a writer.',
     detail: '  Ms. Rubin is the author of several books, including The Happiness Project, where she discusses personal transformation, and Better Than Before',
@@ -53,7 +59,12 @@ const speakerData = [
 function guestSection(count) {
   return speakerData.slice(0, count).map((speaker) => `
   <ul class="speakerIntro">
-  <li><img src=${speaker.speakerImg} alt=${speaker.altText}></li>
+  <li>
+  <ul class="shadowImage">
+ <li> <img src=${speaker.shadowImage} alt=${speaker.altText} class="image2"></li>
+ <li><img src=${speaker.speakerImg} alt=${speaker.altText} class="image1"> </li>
+ </ul>
+ </li>
   <li>
       <ul class="speakerInfo">
           <li><h1>${speaker.speakerName}</h1>

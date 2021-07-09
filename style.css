@@ -339,10 +339,29 @@ hgroup .secondHeading {
   display: inline-block;
 }
 
-.speakerIntro img {
+.speakerIntro .shadowImage {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-right: 8px;
+  position: relative;
+}
+
+.speakerIntro .image1 {
   padding-top: 20px;
   padding-left: 8px;
   height: 120px;
+  width: 100px;
+  position: relative;
+  top: 0;
+  left: 9px;
+}
+
+.speakerIntro .image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
   width: 100px;
 }
 
