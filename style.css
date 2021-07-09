@@ -23,10 +23,10 @@ header .nav-bar {
 
   /* keep the hamburger button above everything */
   z-index: 100;
-  top: 1rem;
+  top: 5px;
   left: 1rem;
   width: 3rem;
-  height: 3rem;
+  height: 25px;
   font-size: 25px;
   background: white;
   cursor: pointer;
