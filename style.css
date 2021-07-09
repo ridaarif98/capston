@@ -229,9 +229,9 @@ hgroup .secondHeading {
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  padding-left: 18px;
-  padding-right: 15px;
-  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px 8px;
 }
 
 .firstDetail li {
@@ -246,7 +246,7 @@ hgroup .secondHeading {
   padding-top: 20px;
   margin-top: 30px;
   padding-left: 10px;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
 .firstDetail h1 {
@@ -255,20 +255,20 @@ hgroup .secondHeading {
   margin-top: 10px;
   font-size: 22px;
   line-height: 27px;
-  padding-right: 36px;
+  padding-right: 20px;
   text-align: left;
   color: #ec5242;
 }
 
 .firstDetail p {
   color: white;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 22px;
   text-align: left;
-  padding-top: 25px;
-  padding-right: 22px;
+  padding-top: 30px;
+  padding-right: 0;
   padding-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .buttonList {
@@ -350,19 +350,19 @@ hgroup .secondHeading {
 .speakerIntro .image1 {
   padding-top: 20px;
   padding-left: 8px;
-  height: 120px;
+  height: 100px;
   width: 100px;
   position: relative;
-  top: 0;
-  left: 9px;
+  top: 1px;
+  left: 4px;
 }
 
 .speakerIntro .image2 {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100px;
-  width: 100px;
+  top: 11px;
+  left: 2px;
+  height: 70px;
+  width: 50px;
 }
 
 .speakerIntro .speakerInfo {
