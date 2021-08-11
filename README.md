@@ -38,9 +38,6 @@ Visit her profile and send her some love for her amazing job!
 =======
 
 ## Getting Started
-To watch the video showcasing the process of building this site please go to this Loom link:
-
-- [`https://www.loom.com/share/d9816592175c4879aacc266a9be55ef7`](https://www.loom.com/share/d9816592175c4879aacc266a9be55ef7)
 
 If you want to visit the Figma Design System that I created to help me building this project you can visit the following link
 
